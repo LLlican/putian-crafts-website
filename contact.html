@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - 莆田工艺品</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-gem me-2"></i>莆田工艺品
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">工艺介绍</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">精品展示</a></li>
+                    <li class="nav-item"><a class="nav-link" href="craftsmen.html">大师传承</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 class="text-white display-4 fw-bold">联系我们</h1>
+            <p class="text-white-50 lead">期待与您的交流合作</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="circle-icon mb-3">
+                                <i class="bi-geo-alt"></i>
+                            </div>
+                            <h5>展馆地址</h5>
+                            <p class="text-muted">福建省莆田市工艺美术城<br>中国工艺美术大师珍品馆</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="circle-icon mb-3">
+                                <i class="bi-telephone"></i>
+                            </div>
+                            <h5>联系电话</h5>
+                            <p class="text-muted">咨询热线：0594-XXXXXXX<br>商务合作：138-XXXX-XXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="circle-icon mb-3">
+                                <i class="bi-envelope"></i>
+                            </div>
+                            <h5>电子邮箱</h5>
+                            <p class="text-muted">info@putian-crafts.com<br>business@putian-crafts.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">留言咨询</h4>
+                            <form id="contactForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">您的姓名</label>
+                                        <input type="text" class="form-control" placeholder="请输入姓名" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">联系电话</label>
+                                        <input type="tel" class="form-control" placeholder="请输入电话" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">电子邮箱</label>
+                                        <input type="email" class="form-control" placeholder="请输入邮箱">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">咨询类型</label>
+                                        <select class="form-select">
+                                            <option>产品咨询</option>
+                                            <option>参观预约</option>
+                                            <option>商务合作</option>
+                                            <option>大师作品收藏</option>
+                                            <option>其他</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">留言内容</label>
+                                        <textarea class="form-control" rows="5" placeholder="请输入您的留言内容..." required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-brown btn-lg w-100">提交留言</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card border-0 shadow-sm mb-4">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">参观信息</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="bi-clock text-brown me-2"></i>
+                                    <strong>开放时间：</strong>
+                                    <span class="text-muted">周二至周日 9:00 - 17:00（周一闭馆）</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi-ticket text-brown me-2"></i>
+                                    <strong>门票信息：</strong>
+                                    <span class="text-muted">免费开放（团体参观需提前预约）</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi-bus-front text-brown me-2"></i>
+                                    <strong>交通指南：</strong>
+                                    <span class="text-muted">莆田市区乘坐公交至工艺美术城站下车即到</span>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi-car-front text-brown me-2"></i>
+                                    <strong>停车信息：</strong>
+                                    <span class="text-muted">展馆内设免费停车场</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5><i class="bi bi-gem me-2"></i>莆田工艺品</h5>
+                    <p class="text-muted mt-3">传承千年匠心，弘扬莆田工艺文化。让世界了解莆田，让莆田走向世界。</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>快速链接</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="index.html" class="text-muted text-decoration-none">首页</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">工艺介绍</a></li>
+                        <li><a href="products.html" class="text-muted text-decoration-none">精品展示</a></li>
+                        <li><a href="craftsmen.html" class="text-muted text-decoration-none">大师传承</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>联系我们</h5>
+                    <ul class="list-unstyled mt-3 text-muted">
+                        <li><i class="bi bi-geo-alt me-2"></i>福建省莆田市工艺美术城</li>
+                        <li><i class="bi bi-telephone me-2"></i>0594-XXXXXXX</li>
+                        <li><i class="bi bi-envelope me-2"></i>info@putian-crafts.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center text-muted">
+                <p class="mb-0">&copy; 2026 莆田工艺品网站 · 实验演示项目 · Bootstrap 5 制作</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
